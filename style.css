@@ -158,7 +158,8 @@ h1, .h1 {
   transition: all 0.5s;
   font-weight: 700;
 }
-.menu .navbar-nav .nav-item .nav-link:hover, .menu .navbar-nav .nav-item .nav-link:focus {
+.menu .navbar-nav .nav-item .nav-link:hover, 
+.menu .navbar-nav .nav-item .nav-link:focus {
   color: #eeb311;
 }
 

@@ -86,8 +86,10 @@ $alert_bar   =  get_post_meta(18, 'alert_bar', true );
           'theme_location'    => 'primary',
           'depth'             => 3,
           'container'         => 'div',
+          'container_id'      => 'navbarTogglerDemo02',
           'container_class'   => 'collapse navbar-collapse',
           'menu_class'        => 'navbar-nav ms-auto mb-2 mb-lg-0',
+          'add_a_class'       => 'nav-link',
           'fallback_cb'       => false
         )
       );

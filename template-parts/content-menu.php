@@ -6,6 +6,13 @@
      */
 
 // Advanced Custom Fields
+
+//Food
+$snack_item_one = get_field('snack_item_one');
+$snack_item_one_description = get_field('snack_item_one_description');
+$snack_item_two = get_field('snack_item_two');
+$snack_item_three = get_field('snack_item_three');
+
 $brewery_name_one = get_field('brewery_name_one');
 $beer_name_one = get_field('beer_name_one');
 $beer_description_one = get_field('beer_description_one');
@@ -17,6 +24,26 @@ $beer_name_three = get_field('beer_name_three');
 $beer_description_three = get_field('beer_description_three');
 $beer_name_three_a = get_field('beer_name_three_a');
 $beer_description_three_a = get_field('beer_description_three_a');
+$brewery_name_four = get_field('brewery_name_four');
+$beer_name_four = get_field('beer_name_four');
+$beer_description_four = get_field('beer_description_four');
+$brewery_name_five = get_field('brewery_name_five');
+$beer_name_five = get_field('beer_name_five');
+$beer_description_five = get_field('beer_description_five');
+$brewery_name_six = get_field('brewery_name_six');
+$beer_name_six = get_field('beer_name_six');
+$beer_description_six = get_field('beer_description_six');
+$brewery_name_seven = get_field('brewery_name_seven');
+$beer_name_seven = get_field('beer_name_seven');
+$beer_description_seven = get_field('beer_description_seven');
+$brewery_name_eight = get_field('brewery_name_eight');
+$beer_name_eight = get_field('beer_name_eight');
+$beer_description_eight = get_field('beer_description_eight');
+$brewery_name_nine = get_field('brewery_name_nine');
+$beer_name_nine = get_field('beer_name_nine');
+$beer_description_nine = get_field('beer_description_nine');
+$beer_name_nine_a = get_field('beer_name_nine_a');
+$beer_description_nine_a = get_field('beer_description_nine_a');
 ?>
 
 <!-- ===== OUR MENU ====== -->
@@ -45,12 +72,11 @@ $beer_description_three_a = get_field('beer_description_three_a');
               </div>
               <div class="content-body">
                 <h3>Snack Food</h3>
-                <h5>Cheese Board - $12</h5>
-                <p class="menu-subtext">Selection of 3 cheeses (Aged White Cheddar, Los Cameros, Aged Gouda)<br />
-                 Add Salty pork bits; Salami - Finocchiona - $5
+                <h5><?php echo $snack_item_one; ?></h5>
+                <p class="menu-subtext"><?php echo $snack_item_one_description; ?>
                 </p>
-                <h5>Caramelized French Onion Dip and Chips - $5</h5>
-                <h5>Bronco Billy Beef Jerky - ask for availability</h5>
+                <h5><?php echo $snack_item_two; ?></h5>
+                <h5><?php echo $snack_item_three; ?></h5>
                 <hr>
                 <h3>Sandwiches</h3>
                 <h5>Turkey Paninis by BZ Deli - $10.00</h5>
@@ -93,30 +119,31 @@ $beer_description_three_a = get_field('beer_description_three_a');
               <h5><?php echo $beer_name_three_a; ?></h5>
               <p class="menu-subtext"><?php echo $beer_description_three_a; ?></p> 
                <hr>
-              <h4>Grist House Craft Brewery:</h4> 
-             <h5>Maximum Power IPA - 6.8% </h5> 
-              <p class="menu-subtext">This takes hop flavor to the MAX! Brewed with Galaxy and Citra LupoMAX hops, a concentrated Lupulin hop pellet with much less hop vegetal matter for a cleaner, bright hop flavor</p> 
+              <h4><?php echo $brewery_name_four; ?></h4> 
+             <h5><?php echo $beer_name_four; ?></h5> 
+              <p class="menu-subtext"><?php echo $beer_description_four; ?></p> 
                 <hr>
-              <h4>Hitchhiker Brewing Company:</h4> 
-             <p> <span class="badge bg-dark mb-1">More Hitchhiker Coming Soon</span></p> 
-              <hr>
-              <h4>Old Thunder Brewing:</h4> 
-             <h5>False Kingdom - 6.8% ABV </h5> 
-             <p class="menu-subtext">IPA brewed with a blend of American hops. Bright and balanced with a fruit forward hop character </p>
-             <hr>
-             <h4>The Leaning Cask Brewing:</h4> 
-              <h5>That'll Do -  4.9% ABV</h5>
-              <p class="menu-subtext">New Zealand Style Pilsner</p>
-              <hr>
-              <h4>11th Hour Brewing:</h4> 
-              <h5>Bonnsch • Kolsh-  4.0% ABV</h5> 
-              <p class="menu-subtext">Born of a very specific German style of beer brewed in Bonn, this beauty is a merge of a Kolsh and Belgian wit beer with an upfront hint of citrus, a slightly fruity aroma, a clean wheat and pilsner taste and a crisp finish.</p> 
-              <hr>
-              <h4>Hop Farm Brewing:</h4> 
-             <h5>Green Room Zen -  7.2% ABV</h5>
-             <p class="menu-subtext">West coast IPA, old school. Loads of cira and mosaic hops. Hints of Grapefruit, Lemon Zest, Orange rind with supporting hint of bread and toffee. </p> 
-             <h5>No Space for Mother-In-Law -  7.5% ABV</h5>
-             <p class="menu-subtext">West coast IPA, dry hopped with Taiheke, Citra and Mosaic. Columbus and Zappa for bittering. Notes of tangerine, peach, and pine.</p> 
+                <h4><?php echo $brewery_name_five; ?></h4> 
+                <h5><?php echo $beer_name_five; ?></h5> 
+                <p class="menu-subtext"><?php echo $beer_description_five; ?></p> 
+                <hr>
+                <h4><?php echo $brewery_name_six; ?></h4> 
+                <h5><?php echo $beer_name_six; ?></h5> 
+                <p class="menu-subtext"><?php echo $beer_description_six; ?></p> 
+                <hr>
+                <h4><?php echo $brewery_name_seven; ?></h4> 
+                <h5><?php echo $beer_name_seven; ?></h5> 
+                <p class="menu-subtext"><?php echo $beer_description_seven; ?></p> 
+                <hr>
+                <h4><?php echo $brewery_name_eight; ?></h4> 
+                <h5><?php echo $beer_name_eight; ?></h5> 
+                <p class="menu-subtext"><?php echo $beer_description_eight; ?></p> 
+                <hr>
+                <h4><?php echo $brewery_name_nine; ?></h4> 
+                  <h5><?php echo $beer_name_nine; ?></h5>
+                <p class="menu-subtext"><?php echo $beer_description_nine; ?></p> 
+                <h5><?php echo $beer_name_nine_a; ?></h5>
+                <p class="menu-subtext"><?php echo $beer_description_nine_a; ?></p> 
              <hr>
             </div>
           </div>
