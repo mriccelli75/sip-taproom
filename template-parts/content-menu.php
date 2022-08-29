@@ -92,7 +92,7 @@ $beer_description_three_a = get_field('beer_description_three_a');
               <p class="menu-subtext"><?php echo $beer_description_three; ?></p> 
               <h5><?php echo $beer_name_three_a; ?></h5>
               <p class="menu-subtext"><?php echo $beer_description_three_a; ?></p> 
-                  <hr>
+               <hr>
               <h4>Grist House Craft Brewery:</h4> 
              <h5>Maximum Power IPA - 6.8% </h5> 
               <p class="menu-subtext">This takes hop flavor to the MAX! Brewed with Galaxy and Citra LupoMAX hops, a concentrated Lupulin hop pellet with much less hop vegetal matter for a cleaner, bright hop flavor</p> 
@@ -104,37 +104,20 @@ $beer_description_three_a = get_field('beer_description_three_a');
              <h5>False Kingdom - 6.8% ABV </h5> 
              <p class="menu-subtext">IPA brewed with a blend of American hops. Bright and balanced with a fruit forward hop character </p>
              <hr>
-            <!-- <h5>Heroes 2 Ghosts - 8.5% ABV </h5> 
-            <p class="menu-subtext"> Northern Cali-style Double IPA brewed with a blend of hops from the Pacific Northwest: amplified notes of fresh citrus and dank pine</p> -->
-              <!-- <hr> -->
              <h4>The Leaning Cask Brewing:</h4> 
-              <!-- <p> <span class="badge bg-dark mb-1">More from The Leaning Cask Brewing Coming Soon</span></p> -->
-              <!-- <h5>Goldendoodle -  4.2% ABV</h5>
-              <p class="menu-subtext">Naturally Effervescent British Golden Ale</p> -->
               <h5>That'll Do -  4.9% ABV</h5>
               <p class="menu-subtext">New Zealand Style Pilsner</p>
               <hr>
               <h4>11th Hour Brewing:</h4> 
-              <!-- <h5>New Cult New England IPA/Hazy -  7.0% ABV</h5>
-              <p class="menu-subtext">A newly reimagined take on our first hazy, we bring you New Cult. Loaded with Citra and Moasic hops, this beer is bursting with notes of citrus and grapefruit, passion fruit and mango. </p> -->
               <h5>Bonnsch • Kolsh-  4.0% ABV</h5> 
               <p class="menu-subtext">Born of a very specific German style of beer brewed in Bonn, this beauty is a merge of a Kolsh and Belgian wit beer with an upfront hint of citrus, a slightly fruity aroma, a clean wheat and pilsner taste and a crisp finish.</p> 
               <hr>
               <h4>Hop Farm Brewing:</h4> 
-             <!-- <p> <span class="badge bg-dark mb-1">More from Hop Farm Coming Soon</span></p> -->
              <h5>Green Room Zen -  7.2% ABV</h5>
              <p class="menu-subtext">West coast IPA, old school. Loads of cira and mosaic hops. Hints of Grapefruit, Lemon Zest, Orange rind with supporting hint of bread and toffee. </p> 
              <h5>No Space for Mother-In-Law -  7.5% ABV</h5>
              <p class="menu-subtext">West coast IPA, dry hopped with Taiheke, Citra and Mosaic. Columbus and Zappa for bittering. Notes of tangerine, peach, and pine.</p> 
-             
              <hr>
-             <!-- <h4>Mindful Brewing:</h4> 
-             <h5>Spa Day -  5.8% ABV</h5>
-             <p class="menu-subtext">A cucumber wheat beer brewed in collaboration with Tortured Souls Brewing.</p> 
-             <hr> -->
-              <!-- <h5>Profondo Dry Hopped Italian Style Pilsner -  5.1% ABV</h5>
-              <p class="menu-subtext">Dry hopped Italian Pilsner brewed with Eraclea malt and Saphir hops</p> -->
-
             </div>
           </div>
         </div>
@@ -143,13 +126,6 @@ $beer_description_three_a = get_field('beer_description_three_a');
     </div>
     <div class="container">
       <div class="row mt-5">
-        <!-- <div class="col-md-6 mb-5 order-md-last">
-        <div class="photo-bx--right">
-          <div class="photo">
-            <img src="images/bar_photos/wine_shot.jpg" class="img-fluid" alt="wine"> 
-          </div>
-        </div>
-      </div> -->
         <div class="col-md-12">
           <div class="content wines">
             <div class="content-header">
@@ -179,10 +155,6 @@ $beer_description_three_a = get_field('beer_description_three_a');
                 mild acidity, oak and vanilla.</p>
               <h5>Montinore Estate, Pinot Gris Willamette Valley - $10</h5>
               <p> <span class="badge bg-dark mb-1">More Coming Soon</span></p> 
-
-              <!-- <p class="menu-subtext">This dry style Pino Gris begins with aromatics of bright citrus and tropical fruit
-                that lead to a firm foundation of apple, mango and a hint of savory and spice on the palate, finish
-                crisp and bright.</p> -->
               <h4>Reds</h4>
               <h5>Josh Cellars Cabernet Sauvignon - $10</h5>
               <p class="menu-subtext">The bouquet is rich with dark fruits, cinnamon, clove and subtle oak aromas. The
